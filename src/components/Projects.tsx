@@ -43,7 +43,7 @@ const Projects = () => {
           className="text-center mb-12"
         >
           <h2 className="text-4xl font-bold text-white mb-4">Projects</h2>
-          <p className="text-gray-400">Check out some of my recent work, Click on the project to view the code. Find more projects on my GitHub</p>
+          <p className="text-gray-400">Check out some of my recent work</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
@@ -96,25 +96,10 @@ const Projects = () => {
             </motion.a>
           ))}
         </div>
+        <div className="text-center mt-20 text-gray-400 text-sm">
+          © 2025 <a href="https://github.com/itkhld1" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-400 transition-colors">KHALID SAMIM</a>
+        </div>
       </div>
-      
-      {/* Copyright Footer */}
-      <motion.div
-        initial={{ opacity: 0, y: 10 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        viewport={{ once: true }}
-        className="text-center mt-20 text-gray-400 text-sm"
-      >
-        © 2025 <a 
-          href="https://github.com/itkhld1" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="text-white-500 hover:text-orange-400 transition-colors"
-        >
-          KHALID SAMIM
-        </a>
-      </motion.div>
     </section>
   )
 }

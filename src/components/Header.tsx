@@ -32,7 +32,7 @@ const Header = () => {
             <span className="text-orange-500">ITKHLD&apos;S</span>{' '}
             <span className="text-white">PORTFOLIO</span>
           </a>
-
+          
           {/* Desktop Menu */}
           <ul className="hidden md:flex items-center space-x-8">
             {menuItems.map((item, index) => (
@@ -45,7 +45,7 @@ const Header = () => {
                 <a
                   href={item.href}
                   className="text-white hover:text-orange-500 transition-colors"
-                >
+            >
                   {item.label}
                 </a>
               </motion.li>

@@ -48,7 +48,7 @@ const Hero = () => {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-gray-500 text-lg mb-8 font-semibold"
             >
-             iOS <i className="fa-brands fa-apple"></i> developer 
+              developer
             </motion.p>
 
             <motion.p
@@ -74,14 +74,6 @@ const Hero = () => {
                 className="text-white hover:text-orange-500 transition-colors text-2xl"
               >
                 <i className="fab fa-github"></i>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/khaled-samim-6146a7231/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:text-orange-500 transition-colors text-2xl"
-              >
-                <i className="fab fa-linkedin"></i>
               </a>
               <a
                 href="mailto:khalidsamim321@gmail.com"
@@ -117,7 +109,7 @@ const Hero = () => {
               className="inline-block bg-orange-500 text-white px-8 py-3 rounded-md hover:bg-orange-600 transition-colors"
               download
             >
-              Resume  <i className="fa fa-file-text" aria-hidden="true"></i>
+              Download CV
             </motion.a>
           </motion.div>
         </div>
