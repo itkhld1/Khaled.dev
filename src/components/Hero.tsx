@@ -25,7 +25,7 @@ const Hero = () => {
             >
               ⎯ Hello
             </motion.p>
-            <h2 className="text-3xl text-white mb-4 flex items-center justify-center gap-2">
+            <h2 className="text-4xl text-white mb-4 flex items-center justify-center gap-2">
               <span className="font-normal">I&apos;m</span>{' '}
               <TypeAnimation
                 sequence={[
@@ -46,7 +46,7 @@ const Hero = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4, duration: 0.8 }}
-              className="text-gray-500 text-lg mb-8 font-semibold"
+              className="text-gray-500 text-lg mb-8 font-bold"
             >
               developer
             </motion.p>
@@ -82,7 +82,7 @@ const Hero = () => {
                 <i className="fas fa-envelope"></i>
               </a>
               <a
-                href="https://wa.me/00905558791740"
+                href="https://wa.me/+905558791740"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-orange-500 transition-colors text-2xl"
