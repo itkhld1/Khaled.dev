@@ -29,7 +29,7 @@ const Hero = () => {
               <span className="font-normal">I&apos;m</span>{' '}
               <TypeAnimation
                 sequence={[
-                  'Khalid Samim',
+                  'Khaled Samim',
                   2000,
                   'an  Developer',
                   2000,
