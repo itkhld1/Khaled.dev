@@ -25,7 +25,7 @@ const Hero = () => {
             >
               ⎯ Hello
             </motion.p>
-            <h2 className="text-5xl text-white mb-4 flex items-center justify-center gap-2">
+            <h2 className="text-3xl text-white mb-4 flex items-center justify-center gap-2">
               <span className="font-normal">I&apos;m</span>{' '}
               <TypeAnimation
                 sequence={[
