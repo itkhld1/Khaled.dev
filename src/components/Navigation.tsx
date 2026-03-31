@@ -40,9 +40,11 @@ const Navigation = ({ isOpen, onClose }: NavigationProps) => {
   }, [isOpen])
 
   const menuItems = [
+    { title: 'Home', href: '#' },
+    { title: 'Award', href: '#award' },
     { title: 'Projects', href: '#projects' },
-    { title: 'Contact', href: '#contact' },
-    { title: 'CV', href: '#cv' }
+    { title: 'Skills', href: '#skills' },
+    { title: 'Contact', href: '#contact' }
   ]
 
   return (

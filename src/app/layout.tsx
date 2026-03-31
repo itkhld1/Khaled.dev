@@ -1,37 +1,28 @@
-import type { Metadata } from 'next'
-import { Sora } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from "next";
+import { Plus_Jakarta_Sans } from "next/font/google";
+import "./globals.css";
 
-const sora = Sora({ 
-  subsets: ['latin'],
-  variable: '--font-sora',
-})
+const jakarta = Plus_Jakarta_Sans({ 
+  subsets: ["latin"], 
+  variable: "--font-jakarta",
+  weight: ['400', '500', '600', '700', '800'] 
+});
 
 export const metadata: Metadata = {
-  title: "ITKHLD's Portfolio | iOS Developer",
-  description: 'Professional portfolio of Khalid Samim - iOS Developer and App Creator',
-}
+  title: "Khaled Samim | iOS Developer",
+  description: "Portfolio of Khaled Samim, Apple Swift Student Challenge Winner 2026",
+};
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
-    <html lang="en" className={`${sora.variable}`}>
-      <head>
-        <link 
-          rel="icon" 
-          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨🏻‍💻</text></svg>" 
-        />
-        <link 
-          rel="stylesheet" 
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
-        />
-      </head>
-      <body className="bg-gradient-to-br from-white to-gray-50">
+    <html lang="en">
+      <body className={`${jakarta.variable} font-sans bg-[#1A1A1A] text-white`}>
         {children}
       </body>
     </html>
-  )
+  );
 }

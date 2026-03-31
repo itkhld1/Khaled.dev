@@ -35,8 +35,6 @@ const Hero = () => {
                   2000,
                   'a Creator',
                   2000,
-                  'Swift Challenge Winner 2026',
-                  2000,
                 ]}
                 wrapper="span"
                 speed={50}
@@ -119,9 +117,8 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.8 }}
               className="inline-block bg-orange-500 text-white px-8 py-3 rounded-md hover:bg-orange-600 transition-colors"
-              download
             >
-              Download CV
+              View CV
             </motion.a>
           </motion.div>
         </div>

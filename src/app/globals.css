@@ -3,43 +3,28 @@
 @tailwind utilities;
 
 :root {
-  --font-sora: 'Sora', sans-serif;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 26, 26, 26;
+  --background-end-rgb: 26, 26, 26;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-jakarta), sans-serif;
+  letter-spacing: -0.02em;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }
 
 html {
   scroll-behavior: smooth;
 }
-
-body {
-  font-family: var(--font-sora);
-  background-color: #1A1A1A;
-  color: white;
-}
-
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #1A1A1A;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #EA580C;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #C2410C;
-}
-
-/* Smooth transitions */
-a, button {
-  transition: all 0.3s ease;
-}
-
-/* Orange glow effect */
-.orange-glow {
-  box-shadow: 0 0 15px rgba(234, 88, 12, 0.3);
-} 
