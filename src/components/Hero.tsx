@@ -35,6 +35,8 @@ const Hero = () => {
                   2000,
                   'a Creator',
                   2000,
+                  'Swift Challenge Winner 2026',
+                  2000,
                 ]}
                 wrapper="span"
                 speed={50}
@@ -42,6 +44,16 @@ const Hero = () => {
                 repeat={Infinity}
               />
             </h2>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.3, duration: 0.8 }}
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-500/10 border border-orange-500/20 mb-6"
+            >
+              <span className="text-orange-500 text-sm font-semibold tracking-wide uppercase">
+                 Apple Swift Student Challenge Winner 2026
+              </span>
+            </motion.div>
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}

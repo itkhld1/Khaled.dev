@@ -10,7 +10,8 @@ const Projects = () => {
       description: 'An innovative app that helps users discover and explore new categories with an engaging interface.',
       tech: ['Swift', 'UIKit', 'CoreData', 'Xcode'],
       image: '/whatami.png',
-      link: 'https://github.com/itkhld1/WhatAmI-'
+      link: 'https://github.com/itkhld1/WhatAmI-',
+      isWinner: true
     },
     {
       title: 'First Aid Guide',
@@ -74,6 +75,11 @@ const Projects = () => {
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
+                  {project.isWinner && (
+                    <div className="absolute top-4 right-4 bg-orange-500 text-white text-[10px] font-bold px-2 py-1 rounded-full z-10 shadow-lg">
+                      WINNER
+                    </div>
+                  )}
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
@@ -97,7 +103,7 @@ const Projects = () => {
           ))}
         </div>
         <div className="text-center mt-20 text-gray-400 text-sm">
-          © 2025 <a href="https://github.com/itkhld1" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-400 transition-colors">KHALID SAMIM</a>
+          © 2026 <a href="https://github.com/itkhld1" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-400 transition-colors">KHALID SAMIM</a>
         </div>
       </div>
     </section>
