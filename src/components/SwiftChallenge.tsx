@@ -54,10 +54,14 @@ const SwiftChallenge = () => {
               {/* This represents the Award/Memoji area */}
               <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-orange-600 rounded-[2.5rem] rotate-6 opacity-20"></div>
               <div className="absolute inset-0 bg-[#2A2A2A] rounded-[2.5rem] border border-white/10 flex items-center justify-center overflow-hidden shadow-2xl">
-                <div className="text-9xl"></div>
-                <div className="absolute bottom-8 left-0 right-0 text-center">
-                  <span className="text-orange-500 font-mono text-sm">Class of 2026</span>
-                </div>
+                <video 
+                  src="/SSCW.mp4" 
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </motion.div>
