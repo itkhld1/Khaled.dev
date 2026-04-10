@@ -6,7 +6,7 @@ const Skills = () => {
   const skills = ['Swift', 'SwiftUI', 'Xcode']
 
   return (
-    <section id="skills" className="py-24 bg-[#1A1A1A] relative">
+    <section id="skills" className="py-24 relative">
       <div className="max-w-[1100px] mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

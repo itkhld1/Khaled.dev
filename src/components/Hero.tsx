@@ -6,10 +6,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-[#1A1A1A] relative overflow-hidden pt-20">
-      {/* Dynamic Background Glows */}
-      <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-orange-500/10 blur-[120px] rounded-full"></div>
-      <div className="absolute bottom-[10%] right-[-5%] w-[30%] h-[30%] bg-orange-600/10 blur-[100px] rounded-full"></div>
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       
       <div className="max-w-[1100px] mx-auto px-6 w-full relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

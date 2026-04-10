@@ -38,10 +38,7 @@ const SwiftChallenge = () => {
   const currentAward = awards[currentIndex]
 
   return (
-    <section id="award" className="py-24 bg-[#1A1A1A] relative overflow-hidden">
-      {/* Decorative background glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-orange-500/10 blur-[120px] rounded-full transition-colors duration-500"></div>
-      
+    <section id="award" className="py-24 relative overflow-hidden">
       <div className="max-w-[1100px] mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           

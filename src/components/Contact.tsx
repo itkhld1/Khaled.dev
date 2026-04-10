@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-24 bg-[#1A1A1A] relative">
+    <section id="contact" className="py-24 relative">
       <div className="max-w-[1100px] mx-auto px-6">
         <div className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-[3rem] p-12 md:p-20 text-center relative overflow-hidden">
           {/* Decorative shapes */}
