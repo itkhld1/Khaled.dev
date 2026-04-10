@@ -107,17 +107,13 @@ const Hero = () => {
               {/* Image Container */}
               <div className="absolute inset-12 bg-gradient-to-br from-[#2A2A2A] to-[#1A1A1A] rounded-[3rem] border border-white/10 overflow-hidden shadow-2xl">
                 <div className="absolute inset-0 bg-orange-500/5 group-hover:bg-orange-500/10 transition-colors"></div>
-                {/* Fallback to stylized  if Subject.PNG isn't used or doesn't fit */}
-                <div className="absolute inset-0 flex items-center justify-center text-[180px] text-white/5 font-bold select-none">
-                  
-                </div>
                 {/* If you want to use your photo, uncomment below and ensure Subject.PNG is correct */}
-                {/* <Image 
-                  src="/Subject.PNG" 
+                <Image 
+                  src="/MyPhoto.JPEG" 
                   alt="Khaled Samim" 
                   fill 
                   className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
-                /> */}
+                />
               </div>
 
               {/* Floating Badge */}
