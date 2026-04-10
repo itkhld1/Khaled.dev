@@ -10,7 +10,7 @@ const SwiftChallenge = () => {
     {
       subtitle: 'Official Recognition',
       title: 'Apple Swift Student Challenge Winner 2026',
-      description: 'Selected by Apple as one of the global winners for demonstrating exceptional creativity, technical skill, and the power of coding to solve real-world problems. My winning submission focused on creating an interactive experience that combines intuitive design with advanced iOS frameworks.',
+      description: 'Selected by Apple as one of the global winners for demonstrating exceptional creativity, technical skill, and the power of coding to solve real-world problems.',
       points: [
         { title: 'Innovation', detail: 'Pushing the limits of SwiftUI and ARKit.' },
         { title: 'Impact', detail: 'Designed with accessibility at its core.' }
