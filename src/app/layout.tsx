@@ -11,6 +11,12 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Khaled Samim | iOS Developer",
   description: "Portfolio of Khaled Samim, Apple Swift Student Challenge Winner 2026",
+  openGraph: {
+    title: 'User Profile',
+    description: 'Personal details and portfolio.',
+    type: 'profile',
+    images: ['/<MyPhoto.JPEG>'],
+  },
 };
 
 export default function RootLayout({
